@@ -12,7 +12,7 @@
   Pipe.js 水管的父类
   UpPipe.js 上部水管
   DownPipe.js 下部水管
-  Bird.js 小鸟类
+  Birds.js 小鸟类
   Score.js 得分类
   StartButton.js 重新开始的按钮图
 
@@ -27,7 +27,7 @@
      |  |--Sprite.js
      |  |--DataStore.js
      |--player/
-     |  |--Bird.js
+     |  |--Birds.js
      |  |--Score.js 
      |  |--StartButton.js
      |--runtime/

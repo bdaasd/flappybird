@@ -4,7 +4,7 @@
  */
 export class DataStore{
    constructor(){
-       console.log('创建一个变量池');
+       //console.log('创建一个变量池');
        this.map = new Map();
    }
    /**
