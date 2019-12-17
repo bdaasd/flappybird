@@ -4,6 +4,8 @@ import { Background } from "./js/runtime/Background.js";
 import { Director } from "./js/Director.js";
 import { Land } from "./js/runtime/Land.js";
 import { Birds } from "./js/player/Birds.js";
+import { Score } from "./js/player/Score.js";
+import { StartButton } from "./js/player/StartButton.js";
 
 export class Main{
     constructor(){
@@ -42,9 +44,11 @@ export class Main{
        this.director.isGameOver = false;
        this.dataStore
        .put('background',new Background())
-       .put('land', new Land())
+       .put('land',new Land())
        .put('pipes',[])
        .put('birds',new Birds())
+       .put('score',new Score())
+       .put('startButton',new StartButton())
 
        this.addClick();
        this.director.createPipes(); 
