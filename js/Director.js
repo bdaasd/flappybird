@@ -100,7 +100,8 @@ export class Director{
             //cancelAnimationFrame();
         }else{
             //游戏结束
-            alert("游戏结束");
+            //alert("游戏结束");
+            this.dataStore.destroy();
         }
     }
 }
